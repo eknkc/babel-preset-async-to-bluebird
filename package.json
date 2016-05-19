@@ -2,8 +2,10 @@
   "name": "babel-preset-async-to-bluebird",
   "version": "1.0.0",
   "description": "Babel preset to convert async functions to bluebird coroutines",
+  "repository": "eknkc/babel-preset-async-to-bluebird",
   "main": "index.js",
   "keywords": [
+    "babel-preset",
     "babel",
     "preset",
     "coroutine",
@@ -11,8 +13,14 @@
     "async"
   ],
   "author": "Ekin Koc",
+  "contributors": [
+    { "name": "Mirek Rusin", "url": "https://github.com/mirek" }
+  ],
   "license": "ISC",
   "dependencies": {
-    "babel-plugin-transform-async-to-module-method": "^6.0.14"
+    "babel-plugin-transform-async-to-module-method": "^6.8.0"
+  },
+  "peerDependencies": {
+    "bluebird": "^3"
   }
 }
